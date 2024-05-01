@@ -1,0 +1,43 @@
+/* responsive.css */
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .category {
+        width: 45%;
+        margin-bottom: 2em;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
+    .ingredients, .instructions {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 1024px) {
+    .category {
+        width: 30%; /* More categories per row on larger screens */
+    }
+
+    header nav ul {
+        justify-content: space-between;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .ingredients, .instructions {
+        width: 45%; /* More space for content on larger screens */
+    }
+}

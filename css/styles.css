@@ -1,0 +1,243 @@
+/* styles.css */
+
+:root {
+    --navajo-white: #ffe0b5ff;
+    --straw:#cdae8b;
+    --olivine: rgb(248, 182, 252);
+    --caput-mortuum: #4c2719ff;
+    --cerise: rgb(249, 243, 236);
+}
+
+html {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: var(--caput-mortuum);
+    flex: 1; 
+}
+
+header {
+    z-index: 10;
+    background-color: var(--straw);
+    color: var(--caput-mortuum);
+    padding: 1em;
+    position: sticky;
+    top:0;
+    width:100%;
+    height:5%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size:1.2em;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: var(--straw);
+    color: var(--navajo-white);
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; /* Ensures footer does not shrink */
+    align-items: center; /* Center align the content vertically */
+    justify-content: center;
+    height: 50px;
+}
+
+footer .social-links {
+    margin-bottom: 10px; /* Adds space between the links and the copyright text */
+}
+
+footer .social-links a {
+    margin: 0 10px; /* Space between each icon */
+    display: inline-block; /* Ensures links are in a row */
+}
+
+footer .social-links a img {
+    width: 24px; /* Adjust size of icons as necessary */
+    height: auto;
+    vertical-align: middle; /* Aligns icons with the middle of the text if necessary */
+}
+
+footer p {
+    margin-top: 0; /* Removes default paragraph top margin */
+    margin-bottom: 0; /* Removes default paragraph bottom margin */
+}
+ 
+
+.category, .ingredients, .instructions {
+    margin-top: 1em;
+}
+
+.category img {
+    width:100%;
+}
+
+.video {
+    width: 100%;
+}
+
+a {
+    color: var(--cerise);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered-text h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.centered-text p {
+    font-size: 1.4em;
+    width:50%;
+    margin:auto;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;  
+}
+
+.contact-form-container form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+}
+/* Input and Textarea Styles */
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container textarea {
+    width: 100%;  /* Full width to maintain consistency */
+    padding: 10px;  /* Adequate padding for text input */
+    margin-bottom: 10px;  /* Space between each form element */
+    border: 1px solid #ccc;  /* Subtle border */
+    border-radius: 4px;  /* Rounded corners for modern appearance */
+    box-sizing: border-box;  /* Includes padding and border in the width */
+}
+
+/* Enhance the visual feedback on focus */
+.contact-form-container input[type="text"]:focus,
+.contact-form-container input[type="email"]:focus,
+.contact-form-container textarea:focus {
+    border-color: var(--olivine);  /* Highlight focus with theme color */
+    box-shadow: 0 0 8px rgba(248, 182, 252, 0.5);  /* Soft glow effect */
+    outline: none;  /* Removes default focus outline */
+}
+
+/* Styles for the submit button */
+.contact-form-container input[type="submit"] {
+    background-color: var(--caput-mortuum);  /* Theme color for button */
+    color: var(--navajo-white);  /* Contrast text color */
+    font-weight: bold;  /* Make button text stand out */
+    padding: 12px 20px;  /* Comfortable padding around text */
+    border: none;  /* No border */
+    border-radius: 4px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s;  /* Smooth transition for hover effects */
+}
+
+/* Hover and focus effects for the submit button */
+.contact-form-container input[type="submit"]:hover,
+.contact-form-container input[type="submit"]:focus {
+    background-color: var(--straw);  /* Lighter theme color on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .contact-form-container form {
+        padding: 15px;  /* Slightly reduced padding */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Less pronounced shadow */
+    }
+}
+.video-wrapper {
+    position: relative;
+    width: 100%; /* Adjust width as necessary */
+    height: 100%; /* Adjust height as necessary */
+}
+
+.video-overlay{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color: #00000042;
+    top:0;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the area without distortion */
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text */
+    color: white; /* Ensures the text is visible on top of the video */
+    text-align: center; /* Aligns the text centrally */
+    width: 100%; /* Ensures text container matches video width */
+    z-index:10;
+}
+
+.flex-container {
+    display: flex; /* Activates flexbox layout mode */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: space-around; /* Distributes space around each image */
+    align-items: center; /* Vertically centers the images within their row */
+}
+
+.flex-container a {
+    width: 18%; /* Sets a base width for each image */
+    height: auto; /* Maintains the aspect ratio */
+    margin: 5px; /* Adds some space around each image */
+    min-width: 100px; /* Optional: Prevents images from becoming too small */
+}
+
+@media (max-width: 768px) {
+    .flex-container a {
+        width: 48%; /* Increases the width, reducing the number of images per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-container a {
+        width: 98%; /* Each image takes almost full width, resulting in one image per row */
+    }
+}
+

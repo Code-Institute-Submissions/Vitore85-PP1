@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Categories</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Ensure you link your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Choose a Recipe:</h2>
+            <div class="flex-container">
+                <a href="/chocolatechipcookies.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/AdobeStock_239339042.jpeg" alt="Chocolatechipcookiesonatray" width="200px" height="200px">
+                    <div class="overlay">Chocolate Chip Cookies</div>
+                </a>
+                <a href="/cinnamonbuns.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/AdobeStock_338808639.jpeg" alt="Cinnamonbunsonaplate" width="200px" height="200px">
+                    <div class="overlay">Cinnamon Buns</div>
+                </a>
+                <a href="/swedishhallongrottor.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/AdobeStock_665934952.jpeg" alt="Hallongrottoronaplate" width="200px" height="200px">
+                    <div class="overlay">Swedish Hallongrottor</div>
+                </a>
+                <a href="/carrotcake.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/AdobeStock_763662046.jpeg" alt="Carrotcakeonaplate" width="200px" height="200px">
+                    <div class="overlay">Carrot Cake</div>
+                </a>
+                <a href="/applepie.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/AdobeStock_783502144.jpeg" alt="Applepieonatable" width="200px" height="200px">
+                    <div class="overlay">Apple Pie</div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <footer>
+            <div class="social-links">
+                <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/svgs/instagram-icon.svg" alt="Instagram Icon">
+                </a>
+                
+                <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/svgs/facebook-icon.svg" alt="Facebook Icon">
+                </a>
+                <a href="https://www.twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/svgs/twitter-icon.svg" alt="Twitter Icon">
+                </a>
+            </div>
+        <p>© 2024 Vitore's Bakery. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Script to navigate to the page of the selected category
+        document.getElementById('category-dropdown').addEventListener('change', function() {
+            var url = this.value; // Get selected value
+            if (url) { // Check if a value was selected
+                window.location = url; // Redirect to the selected page
+            }
+            return false;
+        });
+    </script>
+</body>
+</html>
+
