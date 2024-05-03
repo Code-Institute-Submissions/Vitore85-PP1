@@ -3,7 +3,7 @@
 
 ## Project Overview
 This website is for Vitore's Bakery and provides a collection of baking recipes presented in an accessible, user-friendly, and responsive format. It's designed to help both novice and experienced bakers find great recipes.
-![Vitore's Bakery shown on different devices](<assets/images/Readme-images/mockup device.png>)
+![Vitore's Bakery shown on different devices](<readme-images/mockup device.png>)
 
 ## You can reach the website link [here](https://github.com/Vitore85/PP1)
 ---
@@ -93,7 +93,7 @@ Vitore's Bakery is a recipe website where people can find baking recipes, watch 
 
 ### Color Scheme
 
-![Color scheme](assets/images/Readme-images/palette.png)
+![Color scheme](readme-images/palette.png)
 ### Thoughts behind choosing this color scheme:
 This palette draws from the rich, comforting hues of spices and baked goods themselves—colors that evoke warmth and a sense of welcoming. Each color was carefully selected to represent the authenticity and heartfelt warmth that baking brings into homes.
 These colors not only create a visually appealing website but also resonate deeply with the sensory experiences of baking. They reflect a return to tradition and authenticity, much like the timeless art of baking itself. This palette promises a genuine, down-to-earth experience—what you see is what you get.
@@ -105,18 +105,18 @@ Arial, Sans-Serif
 ### Imagery
 
 Used a moving image for Home/Index
-![BG image index](<assets/images/Readme-images/Screenshot Homebg.png>)
+![BG image index](<readme-images/Screenshot Homebg.png>)
 
 Used an image for every recipe showing how the cookies/cakes/pastries can look like
-![ChocolateChip Recipe](assets/images/AdobeStock_239339042.jpeg)
+![ChocolateChip Recipe](rdobeStock_239339042.jpeg)
 
-![CinnamonBun Recipe](assets/images/AdobeStock_338808639.jpeg)
+![CinnamonBun Recipe](rdobeStock_338808639.jpeg)
 
-![Hallongrottor Recipe](assets/images/AdobeStock_665934952.jpeg)
+![Hallongrottor Recipe](rdobeStock_665934952.jpeg)
 
-![Carrot Cake Recipe](assets/images/AdobeStock_763662046.jpeg)
+![Carrot Cake Recipe](rdobeStock_763662046.jpeg)
 
-![ApplePie Recipe](assets/images/AdobeStock_783502144.jpeg)
+![ApplePie Recipe](rdobeStock_783502144.jpeg)
 
 ### Wireframes
 Wireframes were not used for this project
@@ -129,7 +129,7 @@ The entire site is responsive and functions smoothly across all devices
 ### General features on each page
 
 ### Favicon
-![Cupcake](<assets/images/Readme-images/cookie-cooking-cupcake-dessert-food-meal-svgrepo-com (1).svg>)that represents that it as a happy and fun baking site
+![Cupcake](<readme-images/cookie-cooking-cupcake-dessert-food-meal-svgrepo-com (1).svg>)that represents that it as a happy and fun baking site
 
 Favicon is visible on every ingredient
 
@@ -139,7 +139,7 @@ The header is visible on every page
 
 
 #### Desktop
-![Header PC](<assets/images/Readme-images/Screenshot header PC.png>)
+![Header PC](<readme-images/Screenshot header PC.png>)
 
 - Consists of a menu to easily navigate on the website
 - The link changes color when hovered over, allowing you to easily see what your mouse is pointing at.
@@ -147,7 +147,7 @@ The header is visible on every page
 
 
 #### Mobile
-![Header mobile](<assets/images/Readme-images/Screenshot header mobile.png>)
+![Header mobile](<readme-images/Screenshot header mobile.png>)
 
 - The header is sticky so one is always able to easily find their way to a different part of the website.
 
@@ -157,7 +157,7 @@ The header is visible on every page
 The footer is visible on every page
 
 #### Desktop
-![Footer PC](<assets/images/Readme-images/Footer PC.png>)
+![Footer PC](<readme-images/Footer PC.png>)
 
 - Footer with social-link-icons to easy visit social-media account of the creator (links opens in a new tab.)  
 - Copyright information in the bottom center.
@@ -167,7 +167,7 @@ The footer is visible on every page
 Background is fixed, and all the content in front of it moves without the background moving.
 
 #### Mobile
-![Footer mobile](<assets/images/Readme-images/Footer mobile.png>)
+![Footer mobile](<readme-images/Footer mobile.png>)
 
 - Footer with social-link-icons to easy visit social-media account of the creator(links opens in a new tab.) 
 - Copyright information in the bottom center.
@@ -178,12 +178,12 @@ Background is fixed, and all the content in front of it moves without the backgr
 ### The Homepage
 
 Homepage consists of a warm welcome text, vibrant colors and a lively image to make it attractive for all people and ages and for them to explore more of the website
-![Home](<assets/images/Readme-images/Screenshot Homepage.png>)
+![Home](<readme-images/Screenshot Homepage.png>)
 
 ### Media Section
 - This page consist of an embedded iframe from YouTube
 - This also is paired with the Carrot Cake recipe
-![Media carrot cake](<assets/images/Readme-images/Screenshot media youtube.png>)
+![Media carrot cake](<readme-images/Screenshot media youtube.png>)
 
 ### Video Credits
 
@@ -196,12 +196,12 @@ Homepage consists of a warm welcome text, vibrant colors and a lively image to m
 - The input-fields are required which means a user must input information in all fields for it to be able to submit.
 - A large textarea for the user to input a larger message for the communication to feel a bit more personal and intimate.
 - A big submit button is added below the form to submit the contact form.
-![Contact](<assets/images/Readme-images/Screenshot Contact.png>)
+![Contact](<readme-images/Screenshot Contact.png>)
 
 ### 404 Error Page
 - Information displayed when the user inputs a non-existent webpage. 
 - Alert and information that the page cannot be reached and also a link to take the user back to the homepage.
-![404 error](<assets/images/Readme-images/Screenshot error.png>)
+![404 error](<readme-images/Screenshot error.png>)
 
 ### Future Implementations
 - A recipe comment and review section where users are able to rate the recipe and/or share their hacks and results
