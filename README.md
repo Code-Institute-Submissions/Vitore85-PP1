@@ -54,7 +54,7 @@ This website is for Vitore's Bakery and provides a collection of baking recipes 
         - [To Clone the pp1-final repository:](#to-clone-the-pp1-final-repository)
     - [Code Used](#code-used)
     - [Content](#content)
-    - [Acknowledgments](#acknowledgments)
+    - [Thank you](#thank-you)
 
 
 ---
@@ -211,14 +211,6 @@ Homepage consists of a warm welcome text, vibrant colors and a lively image to m
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ### Validator Testing 
 
@@ -279,11 +271,11 @@ The instructions to achieve this are below:
 - I used code from the html essentials that I hade written down, Googled some parts where nothing else worked, Youtube hacks, ChatGPT and with a little help from my spouse
 
 ### Content
-- Content is written by me and with a little english help from ChatGPT and my english friends.
+- Content is written by me and with a little english help from ChatGPT, my english friends and the Love-Running project.
 - README.md was inspired by all the different projects and the README.md videos online but not copied
-- I might've been inspired and impacted by certain credits and sources to write README as this is completely new to me, but everything is reworked to fit my own project the best
+- I may have been inspired and influenced by various credits and sources while writing the README, as this was completely new to me. However, I have adapted everything to best suit my own project.
 
 
-###  Acknowledgments
-- Thanks to my spouse who's been dealing with me either crying because I don't understand or shouting from happiness when something worked out after hours of trying
+###  Thank you
+- Thanks to my spouse who's been dealing with me either crying because I don't understand or shouting from happiness when something worked out after hours of trying. Thank you for all the knowledge that you've been sharing with me.
 - Thanks to the Swedish Community on Slack for always replying and it's always such a good vibe
