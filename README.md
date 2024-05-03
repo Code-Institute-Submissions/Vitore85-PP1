@@ -52,8 +52,6 @@ This website is for Vitore's Bakery and provides a collection of baking recipes 
         - [To Fork the pp1-final repository:](#to-fork-the-pp1-final-repository)
       - [How to Clone](#how-to-clone)
         - [To Clone the pp1-final repository:](#to-clone-the-pp1-final-repository)
-      - [Deploy in VSCode](#deploy-in-vscode)
-        - [If you use VSCode here are the instructions:](#if-you-use-vscode-here-are-the-instructions)
     - [Code Used](#code-used)
     - [Content](#content)
     - [Acknowledgments](#acknowledgments)
@@ -225,9 +223,9 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvitore85.github.io%2FPP1%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvitore85.github.io%2FPP1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ### Accessibility
 
@@ -250,7 +248,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - Shutterstock - To find the recipe images
 
 ## Deployment & Local Development
-The site is deployed using Github Pages - [Vitore's Bakery](https://github.com/Vitore85/PP1)
+The site is deployed using Github Pages - [Vitore's Bakery](https://vitore85.github.io/PP1/index.html)
 
 ### Deployment
 The instructions to achieve this are below:
@@ -266,26 +264,16 @@ The instructions to achieve this are below:
 #### How to Fork
 ##### To Fork the pp1-final repository:
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, github.com/Vitore85/PP1.
+2. Go to the repository for this project, https://github.com/Vitore85/PP1.
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
 ##### To Clone the pp1-final repository:
 1. Log in (or sign up) to GitHub
-2. Go to the repository for this project, github.com/Vitore85/PP1
+2. Go to the repository for this project, https://github.com/Vitore85/PP1
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter
-
-#### Deploy in VSCode
-##### If you use VSCode here are the instructions:
-1. Click on this icon  ![vscode extensions](docs/images/vscode-extensions.png)  to go to extensions.
-2. Search for "Live Server"
-3. Click Install
-4. When installed you might need to restart VSCode.
-5. When inside the project you see in the bottom right corner "Go Live"
-6. Click on that and the page will open up locally in you browser
-7. This
 
 ### Code Used
 - I used code from the html essentials that I hade written down, Googled some parts where nothing else worked, Youtube hacks, ChatGPT and with a little help from my spouse
