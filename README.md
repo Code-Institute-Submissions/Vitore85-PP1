@@ -3,7 +3,7 @@
 
 ## Project Overview
 This website is for Vitore's Bakery and provides a collection of baking recipes presented in an accessible, user-friendly, and responsive format. It's designed to help both novice and experienced bakers find great recipes.
-![Vitore's Bakery shown on different devices](<Read.me/mockup device.png>)
+![Vitore's Bakery shown on different devices](<assets/images/Readme-images/mockup device.png>)
 
 ## You can reach the website link [here](https://github.com/Vitore85/PP1)
 ---
@@ -40,6 +40,8 @@ This website is for Vitore's Bakery and provides a collection of baking recipes 
     - [Contact Section](#contact-section)
     - [404 Error Page](#404-error-page)
     - [Future Implementations](#future-implementations)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
     - [Accessibility](#accessibility)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -93,7 +95,7 @@ Vitore's Bakery is a recipe website where people can find baking recipes, watch 
 
 ### Color Scheme
 
-![Color scheme](Read.me/palette.png)
+![Color scheme](assets/images/Readme-images/palette.png)
 ### Thoughts behind choosing this color scheme:
 This palette draws from the rich, comforting hues of spices and baked goods themselves—colors that evoke warmth and a sense of welcoming. Each color was carefully selected to represent the authenticity and heartfelt warmth that baking brings into homes.
 These colors not only create a visually appealing website but also resonate deeply with the sensory experiences of baking. They reflect a return to tradition and authenticity, much like the timeless art of baking itself. This palette promises a genuine, down-to-earth experience—what you see is what you get.
@@ -105,7 +107,7 @@ Arial, Sans-Serif
 ### Imagery
 
 Used a moving image for Home/Index
-![BG image index](<Read.me/Screenshot Homebg.png>)
+![BG image index](<assets/images/Readme-images/Screenshot Homebg.png>)
 
 Used an image for every recipe showing how the cookies/cakes/pastries can look like
 ![ChocolateChip Recipe](assets/images/AdobeStock_239339042.jpeg)
@@ -129,7 +131,7 @@ The entire site is responsive and functions smoothly across all devices
 ### General features on each page
 
 ### Favicon
-![Cupcake](<Read.me/cookie-cooking-cupcake-dessert-food-meal-svgrepo-com (1).svg>)that represents that it as a happy and fun baking site
+![Cupcake](<assets/images/Readme-images/cookie-cooking-cupcake-dessert-food-meal-svgrepo-com (1).svg>)that represents that it as a happy and fun baking site
 
 Favicon is visible on every ingredient
 
@@ -139,7 +141,7 @@ The header is visible on every page
 
 
 #### Desktop
-![Header PC](<Read.me/Screenshot header PC.png>)
+![Header PC](<assets/images/Readme-images/Screenshot header PC.png>)
 
 - Consists of a menu to easily navigate on the website
 - The link changes color when hovered over, allowing you to easily see what your mouse is pointing at.
@@ -147,7 +149,7 @@ The header is visible on every page
 
 
 #### Mobile
-![Header mobile](<Read.me/Screenshot header mobile.png>)
+![Header mobile](<assets/images/Readme-images/Screenshot header mobile.png>)
 
 - The header is sticky so one is always able to easily find their way to a different part of the website.
 
@@ -157,7 +159,7 @@ The header is visible on every page
 The footer is visible on every page
 
 #### Desktop
-![Footer PC](<Read.me/Footer PC.png>)
+![Footer PC](<assets/images/Readme-images/Footer PC.png>)
 
 - Footer with social-link-icons to easy visit social-media account of the creator (links opens in a new tab.)  
 - Copyright information in the bottom center.
@@ -167,7 +169,7 @@ The footer is visible on every page
 Background is fixed, and all the content in front of it moves without the background moving.
 
 #### Mobile
-![Footer mobile](<Read.me/Footer mobile.png>)
+![Footer mobile](<assets/images/Readme-images/Footer mobile.png>)
 
 - Footer with social-link-icons to easy visit social-media account of the creator(links opens in a new tab.) 
 - Copyright information in the bottom center.
@@ -178,12 +180,12 @@ Background is fixed, and all the content in front of it moves without the backgr
 ### The Homepage
 
 Homepage consists of a warm welcome text, vibrant colors and a lively image to make it attractive for all people and ages and for them to explore more of the website
-![Home](<Read.me/Screenshot Homepage.png>)
+![Home](<assets/images/Readme-images/Screenshot Homepage.png>)
 
 ### Media Section
 - This page consist of an embedded iframe from YouTube
 - This also is paired with the Carrot Cake recipe
-![Media carrot cake](<Read.me/Screenshot media youtube.png>)
+![Media carrot cake](<assets/images/Readme-images/Screenshot media youtube.png>)
 
 ### Video Credits
 
@@ -196,18 +198,36 @@ Homepage consists of a warm welcome text, vibrant colors and a lively image to m
 - The input-fields are required which means a user must input information in all fields for it to be able to submit.
 - A large textarea for the user to input a larger message for the communication to feel a bit more personal and intimate.
 - A big submit button is added below the form to submit the contact form.
-![Contact](<Read.me/Screenshot Contact.png>)
+![Contact](<assets/images/Readme-images/Screenshot Contact.png>)
 
 ### 404 Error Page
 - Information displayed when the user inputs a non-existent webpage. 
 - Alert and information that the page cannot be reached and also a link to take the user back to the homepage.
-![404 error](<Read.me/Screenshot error.png>)
+![404 error](<assets/images/Readme-images/Screenshot error.png>)
 
 ### Future Implementations
 - A recipe comment and review section where users are able to rate the recipe and/or share their hacks and results
 - Online workshops
 - An integrated section for displaying social media posts
 - Some sort of subscription
+
+## Testing 
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Accessibility
 
