@@ -1,11 +1,8 @@
-/* styles.css */
-
 :root {
     --navajo-white: #ffe0b5ff;
     --straw:#cdae8b;
-    --olivine: rgb(248, 182, 252);
     --caput-mortuum: #4c2719ff;
-    --cerise: rgb(249, 243, 236);
+    --cerise: #f9f3ec;
 }
 
 html {
@@ -51,7 +48,7 @@ header nav ul {
 }
 
 header nav ul li {
-    text-align: center;      /* Centers the text within each list item */
+    text-align: center;      
     align-items: center;
     display: flex;
 }
@@ -74,30 +71,30 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex-shrink: 0; /* Ensures footer does not shrink */
-    align-items: center; /* Center align the content vertically */
+    flex-shrink: 0; 
+    align-items: center; 
     justify-content: center;
     height: 50px;
 }
 
 footer .social-links {
-    margin-bottom: 10px; /* Adds space between the links and the copyright text */
+    margin-bottom: 10px; 
 }
 
 footer .social-links a {
-    margin: 0 10px; /* Space between each icon */
-    display: inline-block; /* Ensures links are in a row */
+    margin: 0 10px; 
+    display: inline-block; 
 }
 
 footer .social-links a img {
-    width: 24px; /* Adjust size of icons as necessary */
+    width: 24px; 
     height: auto;
-    vertical-align: middle; /* Aligns icons with the middle of the text if necessary */
+    vertical-align: middle; 
 }
 
 footer p {
-    margin-top: 0; /* Removes default paragraph top margin */
-    margin-bottom: 0; /* Removes default paragraph bottom margin */
+    margin-top: 0; 
+    margin-bottom: 0; 
 }
  
 
@@ -150,12 +147,12 @@ a:hover {
 }
 
 .centered-text h1 {
-    font-size: 4em;
+    font-size: 300%;
     margin-bottom: 10px;
 }
 
 .centered-text p {
-    font-size: 1.4em;
+    font-size: 120%;
     width:50%;
     margin:auto;
 }
@@ -175,57 +172,53 @@ a:hover {
     max-width: 700px;
     width: 100%;
 }
-/* Input and Textarea Styles */
+
 .contact-form-container input[type="text"],
 .contact-form-container input[type="email"],
 .contact-form-container textarea {
-    width: 100%;  /* Full width to maintain consistency */
-    padding: 10px;  /* Adequate padding for text input */
-    margin-bottom: 10px;  /* Space between each form element */
-    border: 1px solid #ccc;  /* Subtle border */
-    border-radius: 4px;  /* Rounded corners for modern appearance */
-    box-sizing: border-box;  /* Includes padding and border in the width */
+    width: 100%; 
+    padding: 10px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;  
+    box-sizing: border-box;  
 }
 
-/* Enhance the visual feedback on focus */
+
 .contact-form-container input[type="text"]:focus,
 .contact-form-container input[type="email"]:focus,
 .contact-form-container textarea:focus {
-    border-color: var(--olivine);  /* Highlight focus with theme color */
-    box-shadow: 0 0 8px rgba(248, 182, 252, 0.5);  /* Soft glow effect */
-    outline: none;  /* Removes default focus outline */
+    box-shadow: 0 0 8px rgba(248, 182, 252, 0.5); 
+    outline: none;  
 }
 
-/* Styles for the submit button */
 .contact-form-container input[type="submit"] {
-    background-color: var(--caput-mortuum);  /* Theme color for button */
-    color: var(--navajo-white);  /* Contrast text color */
-    font-weight: bold;  /* Make button text stand out */
-    padding: 12px 20px;  /* Comfortable padding around text */
-    border: none;  /* No border */
-    border-radius: 4px;  /* Rounded corners */
-    cursor: pointer;  /* Pointer cursor on hover */
-    transition: background-color 0.3s, box-shadow 0.3s;  /* Smooth transition for hover effects */
+    background-color: var(--caput-mortuum);  
+    color: var(--navajo-white);
+    font-weight: bold;  
+    padding: 12px 20px;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    transition: background-color 0.3s, box-shadow 0.3s;  
 }
 
-/* Hover and focus effects for the submit button */
 .contact-form-container input[type="submit"]:hover,
 .contact-form-container input[type="submit"]:focus {
-    background-color: var(--straw);  /* Lighter theme color on hover */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+    background-color: var(--straw);  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
 }
 
-/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .contact-form-container form {
-        padding: 15px;  /* Slightly reduced padding */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Less pronounced shadow */
+        padding: 15px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     }
 }
 .video-wrapper {
     position: relative;
-    width: 100%; /* Adjust width as necessary */
-    height: 100%; /* Adjust height as necessary */
+    width: 100%; 
+    height: 100%; 
 }
 
 .video-overlay{
@@ -239,56 +232,84 @@ a:hover {
 .video-wrapper video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the video covers the area without distortion */
+    object-fit: cover; 
 }
 
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container-carrot {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.column1, .column2 {
+    flex: 1 1 50%; 
+}
+
+.column1 {
+    order: 1; 
+}
+
+.column2 {
+    order: 2; 
+}
+
+.column2 iframe{
+    min-width: 200px;
+    width: 100%;
+    max-width: 560px;
+}
+  
 .centered-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centers the text */
-    color: white; /* Ensures the text is visible on top of the video */
-    text-align: center; /* Aligns the text centrally */
-    width: 100%; /* Ensures text container matches video width */
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
+    width: 100%; 
     z-index:10;
 }
 
 .flex-container {
-    display: flex; /* Activates flexbox layout mode */
-    flex-wrap: wrap; /* Allows items to wrap onto the next line */
-    justify-content: space-around; /* Distributes space around each image */
-    align-items: center; /* Vertically centers the images within their row */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center; 
 }
 
 .flex-container a {
-    width: 18%; /* Sets a base width for each image */
-    height: auto; /* Maintains the aspect ratio */
-    margin: 5px; /* Adds some space around each image */
-    min-width: 100px; /* Optional: Prevents images from becoming too small */
+    width: 18%; 
+    height: auto; 
+    margin: 5px; 
+    min-width: 100px; 
 }
 
 @media (max-width: 768px) {
     .flex-container a {
-        width: 48%; /* Increases the width, reducing the number of images per row */
+        width: 48%; 
     }
 }
 
 @media (max-width: 480px) {
     .flex-container a {
-        width: 98%; /* Each image takes almost full width, resulting in one image per row */
+        width: 98%; 
     }
 }
 
 ul.bullet {
-    list-style-type: none; /* Remove default bullets */
-    padding-inline-start: 20px; /* Optional: removes padding from the list */
+    list-style-type: none; 
+    padding-inline-start: 20px; 
 }
 
 ul.bullet li {
-    padding-left: 20px; /* Space for the bullet image plus some padding */
-    background-image: url('/assets/svgs/cookie-cooking-cupcake-dessert-food-meal-svgrepo-com.svg'); /* Replace with your image path */
-    background-repeat: no-repeat; /* Do not repeat the background image */
-    background-position: 0 50%; /* Align the background image to the left and vertically center it */
-    background-size: 20px 20px; /* Adjust the size of the bullet image */
-    line-height: 1.5; /* Adjust line height to ensure proper alignment, depending on your design */
+    padding-left: 20px; 
+    background-image: url('/assets/svgs/cookie-cooking-cupcake-dessert-food-meal-svgrepo-com.svg'); 
+    background-repeat: no-repeat; 
+    background-position: 0 50%; 
+    background-size: 20px 20px; 
+    line-height: 1.5; 
 }

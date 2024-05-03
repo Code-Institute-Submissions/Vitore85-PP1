@@ -1,4 +1,3 @@
-/* responsive.css */
 
 @media (min-width: 768px) {
     main {
@@ -25,7 +24,7 @@
 
 @media (min-width: 1024px) {
     .category {
-        width: 30%; /* More categories per row on larger screens */
+        width: 30%; 
     }
 
     header nav ul {
@@ -38,6 +37,6 @@
     }
 
     .ingredients, .instructions {
-        width: 45%; /* More space for content on larger screens */
+        width: 45%; 
     }
 }

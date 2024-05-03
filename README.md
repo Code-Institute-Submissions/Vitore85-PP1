@@ -2,8 +2,8 @@
 # Baking Recipes Website
 
 ## Project Overview
-This website provides a collection of baking recipes presented in an accessible, user-friendly, and responsive format. It's designed to help both novice and experienced bakers find great recipes.
-
+This website for Vitore's Bakery provides a collection of baking recipes presented in an accessible, user-friendly, and responsive format. It's designed to help both novice and experienced bakers find great recipes.
+![Vitore's Bakery Website shown on different devices][]
 ## Features
 - **Responsive Design**: Adapts to screen sizes for optimal viewing on any device.
 - **Accessibility Features**: Includes high contrast, alt text for images, and semantic HTML.
@@ -23,3 +23,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## License
 [MIT License](LICENSE)
+
+
+[def]: docs
