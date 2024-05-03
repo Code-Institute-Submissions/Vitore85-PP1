@@ -1,7 +1,7 @@
 :root {
-    --navajo-white: #ffe0b5ff;
+    --navajo-white: rgb(255, 224, 181);
     --straw:#cdae8b;
-    --caput-mortuum: #4c2719ff;
+    --caput-mortuum: #4c2719;
     --cerise: #f9f3ec;
 }
 
@@ -59,8 +59,17 @@ main {
     position: relative;
 }
 
-main.home{
+main.home {
     margin:0!important;
+}
+
+main.error {
+    text-align: center;
+    margin-top:50px;
+}
+
+main.error h1 {
+    font-size:500%;
 }
 
 footer {
