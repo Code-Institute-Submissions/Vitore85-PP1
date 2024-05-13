@@ -5,7 +5,7 @@
 This website is for Vitore's Bakery and provides a collection of baking recipes presented in an accessible, user-friendly, and responsive format. It's designed to help both novice and experienced bakers find great recipes.
 ![Vitore's Bakery shown on different devices](<readme-images/mockup device.png>)
 
-## You can reach the website link [here](https://github.com/Vitore85/PP1)
+## You can reach the website link [here](https://vitore85.github.io/PP1/)
 ---
 ## CONTENTS
 
@@ -240,7 +240,7 @@ Homepage consists of a warm welcome text, vibrant colors and a lively image to m
 - Shutterstock - To find the recipe images
 
 ## Deployment & Local Development
-The site is deployed using Github Pages - [Vitore's Bakery](https://vitore85.github.io/PP1/index.html)
+The site is deployed using Github Pages - [Vitore's Bakery](https://vitore85.github.io/PP1/)
 
 ### Deployment
 The instructions to achieve this are below:
